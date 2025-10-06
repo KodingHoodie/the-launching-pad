@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Jumpers';
+    src: url('./font/Jumpers3D-JppB7.otf') format('opentype');
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Orbitron", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/rocket.jpeg')no-repeat center center fixed;
+
+}
+
+h1 {
+    font-size: 6.5rem;
+    color:#ffd700;
+    margin: auto 0;
+    text-shadow: -2px 3px 3px #1c3b99;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Jumpers';
+    letter-spacing: 10px;
+   
+}
+
+h1:hover {
+    color: #ffd700;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+    cursor: default;
+    transition: all 0.3s ease-in-out;
+}
+
+.sub-text {
+    color: #d9d9d9;
+    text-shadow: 1px 2px 3px #000;
+    margin-top: 25px;
+    font-size: 1rem;
+    opacity: 1;
+    font-style: italic;
+    letter-spacing: 1px; 
+}
+
+
+hr {
+    border-color: #ee4b08;
+    border-width: 6px;
+    max-width: 65px;
+}
+
+.buffer {
+    height: 7rem;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #ee4b08;
+    border-color: #ee4b08;
+    
+}
+
+.btn-primary:hover {
+    background-color: #1c3b99;
+    border-color: #1c3b99;
+    box-shadow: 0 0 15px #1c3b99b3;
+    border-width: 4px;
+    transition: all 0.3s ease-in-out;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="32" width="32"><text y="50%" x="50%" dominant-baseline="middle" text-anchor="middle" font-size="28">🚀</text></svg>') 16 16, auto;
+}
+
+
+.btn-xl {
+    padding: 1rem 3rem;
+}
