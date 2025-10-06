@@ -36,7 +36,7 @@ Right: my customized Launching Pad—complete with bounce animation, custom font
 
 ## 🔗 Live Site & Repo
 
-🌐 **Live Site:** [https://your-username.github.io/the-launching-pad/](https://your-username.github.io/the-launching-pad/)  
+🌐 **Live Site:** (https://the-launching-pad.netlify.app/)
 📁 **GitHub Repo:** (https://github.com/KodingHoodie/the-launching-pad)
 
 ---
